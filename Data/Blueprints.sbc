@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressStoneOre</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Stone </DisplayName>
+			<Icon>Textures\GUI\Ore\ore_rock.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="0.8" TypeId="Ore" SubtypeId="CompressedStoneOreT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+		</Blueprint>
+	</Blueprints>
+</Definitions>
